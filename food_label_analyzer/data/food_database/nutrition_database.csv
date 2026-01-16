@@ -1,0 +1,101 @@
+food_id,food_name,category,serving_size_g,calories,carbs_g,sugars_g,fiber_g,protein_g,fat_g,sodium_mg,potassium_mg,cholesterol_mg,saturated_fat_g
+FOOD001,Apple (medium),Fruit,182,95,25,19,4,0.5,0.3,2,195,0,0.1
+FOOD002,Banana (medium),Fruit,118,105,27,14,3,1.3,0.3,1,358,0,0.1
+FOOD003,Orange (medium),Fruit,131,62,15,12,3,1.2,0.3,0,181,0,0.1
+FOOD004,Blueberries (cup),Fruit,148,84,21,15,3.6,1.1,0.5,1.5,148,0,0.1
+FOOD005,Strawberries (cup),Fruit,152,49,12,7.4,3,1,0.5,2,220,0,0.1
+FOOD006,Watermelon (cup),Fruit,154,46,12,9,0.6,0.9,0.2,98,278,0,0.1
+FOOD007,Grapes (100g),Fruit,100,67,17,16,0.9,0.7,0.4,3,191,0,0.1
+FOOD008,White Bread (1 slice),Grain,28,79,14,2,0.6,2.7,1,144,44,0,0.3
+FOOD009,Whole Wheat Bread (1 slice),Grain,28,81,14,1.5,2.4,4,1,149,69,0,0.2
+FOOD010,Brown Rice (cooked cup),Grain,195,215,45,0.7,3.5,5,2,10,84,0,0.5
+FOOD011,White Rice (cooked cup),Grain,158,206,45,0.1,0.6,4.3,0.3,0,55,0,0.1
+FOOD012,Oats (dry half cup),Grain,40,150,27,1,4,5,3,1,145,0,0.5
+FOOD013,Pasta (cooked cup),Grain,157,221,43,0.8,2.5,8,1.1,1,61,0,0.3
+FOOD014,Chicken Breast (cooked 100g),Protein,100,165,0,0,0,31,3.6,74,256,85,1.4
+FOOD015,Ground Beef Lean (cooked 100g),Protein,100,215,0,0,0,22,13,75,286,90,5.1
+FOOD016,Salmon (cooked 100g),Protein,100,206,0,0,0,25,11,75,475,55,2.3
+FOOD017,Egg (large),Protein,50,78,0.6,0.4,0,6.3,5.3,62,63,212,1.6
+FOOD018,Tofu (100g),Protein,100,76,1.9,0.2,0.2,8.1,4.8,7,121,0,0.7
+FOOD019,Lentils (cooked cup),Protein,198,230,40,0.8,15,18,0.8,4,731,0,0.1
+FOOD020,Milk (whole 1 cup),Dairy,244,150,12,12,0,8,8,107,349,35,4.6
+FOOD021,Yogurt (plain 100g),Dairy,100,59,3.3,3.3,0,10,0.4,46,155,0,0.3
+FOOD022,Cheese Cheddar (1 oz),Dairy,28,113,0.4,0,0,7,9.3,190,28,30,5.9
+FOOD023,Butter (1 tablespoon),Dairy,14,102,0,0,0,0.1,11.5,91,4,31,7.3
+FOOD024,Carrot (medium raw),Vegetable,61,25,6,3.3,1.7,0.6,0.1,42,195,0,0.1
+FOOD025,Broccoli (cooked cup),Vegetable,91,34,7,1.5,2.4,2.8,0.4,58,286,0,0.1
+FOOD026,Spinach (raw cup),Vegetable,30,7,1.1,0.1,0.7,0.9,0.1,24,167,0,0
+FOOD027,Tomato (medium raw),Vegetable,123,22,5,3,1.5,1.1,0.2,6,292,0,0
+FOOD028,Potato (medium baked),Vegetable,173,163,37,1.7,3.7,4.3,0.1,10,941,0,0
+FOOD029,Sweet Potato (medium baked),Vegetable,103,103,23,4.2,3.9,2,0.1,55,438,0,0
+FOOD030,Cucumber (raw cup),Vegetable,119,16,3.6,1.6,0.7,0.7,0.1,2,141,0,0
+FOOD031,Almonds (1 oz 23 nuts),Nut,28,161,6,1.1,3.5,6,14,0.4,196,0,3.5
+FOOD032,Walnuts (1 oz 14 halves),Nut,28,185,4,0.9,3.7,4.3,18.5,1.6,125,0,1.7
+FOOD033,Peanut Butter (2 tbsp),Nut,32,188,7,1.5,2,8,16,111,189,0,3.1
+FOOD034,Olive Oil (1 tablespoon),Fat,14,119,0,0,0,0,13.5,0.5,0.1,0,9.9
+FOOD035,Avocado (half),Fruit,75,121,6,0.3,4.8,1.5,11,5,239,0,1.6
+FOOD036,Cookies Chocolate Chip (1 large),Snack,40,167,21,13,0.8,2,7,200,50,7,2.8
+FOOD037,Candy Gummy Bears (10 pieces),Snack,20,70,17,14,0.4,1,0.2,10,5,0,0
+FOOD038,Chips Potato (1 oz 23 chips),Snack,28,152,15,0.2,1.3,2,9.8,170,400,0,3.1
+FOOD039,Soda Cola (12 oz can),Beverage,355,140,39,39,0,0,0,40,0,0,0
+FOOD040,Orange Juice (1 cup),Beverage,240,112,26,20,0.5,2,0.5,2,496,0,0.1
+FOOD041,Green Tea (1 cup brewed),Beverage,240,2,0.5,0,0,0.3,0,5,88,0,0
+FOOD042,Coffee Black (1 cup),Beverage,240,2,0,0,0,0.3,0,5,116,0,0
+FOOD043,Honey (1 tablespoon),Sweetener,21,64,17,16.3,0,0.1,0,3,11,0,0
+FOOD044,White Sugar (1 teaspoon),Sweetener,4,16,4,4,0,0,0,0,0,0,0
+FOOD045,Pizza Cheese (1 slice),FastFood,285,285,36,2,2.5,11.5,10,506,115,15,4.3
+FOOD046,Hamburger (fast food),FastFood,215,565,46,8,2.3,30,28,1047,263,60,10.5
+FOOD047,French Fries (medium fast food),FastFood,111,323,36,0,3.2,3.4,17,246,359,0,7.1
+FOOD048,Ice Cream Vanilla (1 cup),Dessert,132,266,31,28,0,4.7,14.5,116,181,44,9.2
+FOOD049,Chocolate Bar (1.5 oz),Snack,42,220,24,21,2,3,12,35,187,0,7.3
+FOOD050,Dosa (Indian rice crepe),IndianFood,150,168,30,1.2,1.5,3,4.5,382,95,0,1.8
+FOOD051,Samosa (1 piece),IndianFood,50,206,22,0.5,1,4,11,350,75,0,4.2
+FOOD052,Chapati (1 plain),IndianFood,30,70,13,0.2,0.8,2.5,1.2,112,42,0,0.4
+FOOD053,Rice with Curry (1 cup cooked),IndianFood,200,286,52,1,1.8,6,3.2,490,85,0,1.1
+FOOD054,Biryani (1 cup),IndianFood,240,412,48,2,1.2,12,18,652,125,20,5.8
+FOOD055,Naan Bread (1 plain),IndianFood,90,262,43,1.5,1.5,8.5,6,561,78,0,1.6
+FOOD056,Paneer Curry (1 cup),IndianFood,240,398,8,1.5,1.2,18,32,812,156,80,19.5
+FOOD057,Masala Dosa (1 piece),IndianFood,250,345,65,2.5,2.8,8,4.8,612,145,0,1.5
+FOOD058,Gulab Jamun (1 piece),IndianFood,12,90,12,11,0,0.8,4,45,12,0,2.1
+FOOD059,Rasgulla (1 piece),IndianFood,15,25,6,5.5,0,0.3,0,18,5,0,0
+FOOD060,Idli (1 piece),IndianFood,45,35,7,0.2,0.3,2,0.1,92,30,0,0.05
+FOOD061,Khichdi (1 cup cooked),IndianFood,220,180,35,1.2,0.8,5,8,520,92,0,2.5
+FOOD062,Upma (1 cup),IndianFood,180,220,42,1.5,1.2,6,4,580,95,5,2.2
+FOOD063,Poha (1 cup),IndianFood,200,140,30,0.5,0.6,3,2,480,75,0,1.8
+FOOD064,Toor Dal (1 cup cooked),IndianFood,240,280,50,1.8,2.5,22,18,85,156,0,8.5
+FOOD065,Moong Dal (1 cup cooked),IndianFood,240,212,38,0.8,1.2,16,15,65,145,0,7.2
+FOOD066,Masoor Dal (1 cup cooked),IndianFood,240,230,40,1.5,1.8,18,16,75,152,0,8.1
+FOOD067,Roti/Rotli (1 piece),IndianFood,55,155,28,0.8,0.9,5.5,4.2,380,62,0,1.9
+FOOD068,Paratha (1 plain),IndianFood,80,280,35,1.5,2.1,8.5,6.5,520,85,0,2.4
+FOOD069,Puri (1 piece),IndianFood,50,220,22,2.5,1.8,4,5.5,490,68,0,2.1
+FOOD070,Aloo Gobi (1 cup),IndianFood,220,185,35,2.2,1.8,4,6,780,125,5,2.8
+FOOD071,Chana Masala (1 cup),IndianFood,240,260,42,2.5,2.2,15,12,920,145,8,7.5
+FOOD072,Rajma (1 cup cooked),IndianFood,250,270,48,1.8,2.4,18,16,75,168,0,8.2
+FOOD073,Chole Bhature (1),IndianFood,400,580,88,3.5,3.2,22,14,1200,210,8,10.5
+FOOD074,Tandoori Chicken (100g),IndianFood,100,165,2,0.5,0,28,3.5,450,78,0,0
+FOOD075,Tandoori Fish (100g),IndianFood,100,145,1.5,0.4,0,26,3,380,65,0,0
+FOOD076,Paneer Tikka (100g),IndianFood,100,280,5,1.2,1.5,15,25,580,92,0,0.5
+FOOD077,Pakora (1 piece),IndianFood,45,120,12,1.8,0.8,3,6.5,380,45,0,1.5
+FOOD078,Sambar (1 cup),IndianFood,240,95,15,1.5,1.2,4,2.5,820,52,4,2.1
+FOOD079,Rasam (1 cup),IndianFood,240,60,10,0.8,0.6,2,1.2,680,35,2,1.5
+FOOD080,Curd/Yogurt Plain (1 cup),IndianFood,200,98,12,4.5,0.5,12,3.5,140,180,0,0
+FOOD081,Lassi Sweet (1 cup),IndianFood,240,170,32,2.8,0,10,2.5,150,200,0,0
+FOOD082,Buttermilk (1 cup),IndianFood,240,85,12,1.2,0.5,9,1.8,120,155,0,0
+FOOD083,Jalebi (1 piece),IndianFood,15,60,14,10,0,0.5,1.5,42,8,0,0.8
+FOOD084,Kheer (1 cup),IndianFood,220,280,45,8.5,0,8,8.5,280,120,0,1.2
+FOOD085,Halwa (1 serving),IndianFood,100,320,42,15,0,5,12.5,420,85,0,1.8
+FOOD086,Chai/Tea (1 cup),IndianFood,240,30,5,0.8,0,1,0.5,240,18,0,0
+FOOD087,Coffee Indian Filter (1 cup),IndianFood,240,20,3,0.5,0,1,0.3,180,12,0,0
+FOOD088,Methi (Fenugreek) Paratha (1),IndianFood,90,310,40,1.8,2.5,9,7.5,680,105,0,3.2
+FOOD089,Makki Di Roti (1 piece),IndianFood,70,200,32,1.2,1.5,7,5.2,450,85,0,2.8
+FOOD090,Bathua Saag (1 cup),IndianFood,200,85,8,1.5,0.8,8,2.5,850,145,0,2.2
+FOOD091,Palak Paneer (1 cup),IndianFood,240,285,8,1.8,1.2,16,25,920,185,0,2.8
+FOOD092,Baingan Bharta (1 cup),IndianFood,220,130,18,2.5,1.5,4,5,780,95,8,2.5
+FOOD093,Tomato Curry (1 cup),IndianFood,240,95,12,2.2,1.5,3,3,680,45,6,2.1
+FOOD094,Coconut Chutney (2 tbsp),IndianFood,30,120,8,1.5,1.2,2,9.5,280,42,0,1.5
+FOOD095,Mint Chutney (2 tbsp),IndianFood,25,15,2,0.3,0.2,1,0.5,180,8,0,0.5
+FOOD096,Tamarind Chutney (2 tbsp),IndianFood,25,60,14,12,0.5,0.5,0.3,120,15,0,0.8
+FOOD097,Aloo Paratha (1),IndianFood,120,380,48,2.2,2.8,9,10.5,720,125,0,3.5
+FOOD098,Gobi Paratha (1),IndianFood,110,340,42,1.8,2.5,8,9.5,680,115,0,3.1
+FOOD099,Moong Dal Dosa (1 piece),IndianFood,250,320,62,2.2,2.5,10,3.8,580,138,0,1.8
+FOOD100,Vegetable Fried Rice (1 cup),IndianFood,240,280,38,1.5,1.8,8,8.2,650,92,12,2.4

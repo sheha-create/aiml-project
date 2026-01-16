@@ -1,0 +1,11 @@
+user_id,name,age,gender,weight_kg,height_cm,has_diabetes,diabetes_type,hypertension_severity,activity_level,notes
+USER001,John Smith,55,male,90,180,true,type_2,stage_1,moderate,Software engineer with Type 2 diabetes and mild hypertension
+USER002,Sarah Johnson,48,female,72,165,true,type_2,normal,light,Teacher with Type 2 diabetes
+USER003,Robert Williams,62,male,95,175,true,type_2,stage_2,light,Retired with Type 2 diabetes and high blood pressure
+USER004,Emily Davis,35,female,65,162,false,none,normal,vigorous,Athlete without conditions
+USER005,Michael Brown,70,male,88,172,true,type_1,stage_1,light,Type 1 diabetic senior
+USER006,Lisa Anderson,45,female,78,168,false,prediabetic,elevated,moderate,Prediabetic woman with elevated BP
+USER007,James Wilson,52,male,100,182,true,type_2,stage_2,light,Overweight with Type 2 diabetes and high BP
+USER008,Jennifer Lee,40,female,68,160,true,type_2,normal,moderate,Working mother with Type 2 diabetes
+USER009,David Martinez,58,male,85,178,true,type_2,crisis,sedentary,Critical hypertension with Type 2 diabetes
+USER010,Maria Garcia,50,female,75,165,true,type_2,stage_1,light,Latina with Type 2 diabetes

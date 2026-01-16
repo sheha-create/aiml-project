@@ -1,0 +1,48 @@
+food_name,glycemic_index,glycemic_load_per_serving,fiber_g,category
+White Bread,75,15,1.4,Grain
+Whole Wheat Bread,51,8,3.7,Grain
+Brown Rice,68,16,1.8,Grain
+White Rice,89,23,0.4,Grain
+Oatmeal,55,13,8,Grain
+Pasta,41,6,1.8,Grain
+Cornflakes,81,21,0.7,Grain
+Bran Cereal,58,12,10,Grain
+Watermelon,72,5,0.6,Fruit
+Pineapple,59,7,1.4,Fruit
+Banana,51,13,2.6,Fruit
+Orange,42,5,2.6,Fruit
+Apple,36,5,2.4,Fruit
+Strawberries,40,1,2.2,Fruit
+Grapes,46,8,0.9,Fruit
+Blueberries,53,6,3.6,Fruit
+Raisins,64,28,1.5,Fruit
+Dates,42,35,6.7,Fruit
+Peanuts,13,1,2.4,Nut
+Almonds,15,0,3.5,Nut
+Chickpeas,28,8,12.5,Legume
+Lentils,21,4,7.9,Legume
+Baked Beans,40,6,6.4,Legume
+White Potatoes,72,21,2.1,Vegetable
+Sweet Potatoes,63,16,3.9,Vegetable
+Carrots,16,2,2.8,Vegetable
+Broccoli,15,0,2.4,Vegetable
+Tomato,15,1,1.5,Vegetable
+Milk (whole),27,3,0,Dairy
+Yogurt (plain),14,2,0,Dairy
+Ice Cream (vanilla),60,18,0,Dessert
+Cake (chocolate),38,22,1,Dessert
+Cookies (oatmeal),55,9,2.4,Snack
+Crackers (white),72,12,0.3,Snack
+Cola,63,16,0,Beverage
+Orange Juice,50,12,0.5,Beverage
+Apple Juice,41,12,0.5,Beverage
+Rice with Curry,60,31,1.8,IndianFood
+Biryani,67,32,1.2,IndianFood
+Chapati,52,7,0.8,IndianFood
+Naan,63,27,1.5,IndianFood
+Dosa,55,16,1.5,IndianFood
+Samosa,70,15,1,IndianFood
+Idli,46,3,0.3,IndianFood
+Masala Dosa,58,38,2.8,IndianFood
+Paneer Curry,35,3,1.2,IndianFood
+Gulab Jamun,70,8,0,IndianFood
