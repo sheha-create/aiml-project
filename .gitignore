@@ -1,1 +1,64 @@
-/.venv311
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv3111/
+venv311/
+env/
+ENV/
+*.env
+
+# Bytecode
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# ============================================
+# Machine Learning / CV Assets
+# ============================================
+# Temporary data
+data/raw/
+data/tmp/
+data/cache/
+cache/
+logs/
+*.log
+
+# Model weights (if any in future)
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# ============================================
+# Jupyter Notebooks Checkpoints
+# ============================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ============================================
+# System Files
+# ============================================
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Render / Docker / Deployment
+# ============================================
+# Docker cache
+.cache/
+docker_cache/
+
+# ============================================
+# Streamlit
+# ============================================
+.streamlit/
