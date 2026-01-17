@@ -7,11 +7,9 @@ from pathlib import Path
 # SET PAGE CONFIG FIRST (required by Streamlit)
 st.set_page_config(page_title="Food Label Analyzer", layout="wide")
 
-# Add project root to path for imports
-project_root = Path(__file__).resolve().parent
-sys.path.insert(0, str(project_root))
 
-from src.data_loader import get_data_loader
+
+from food_label_analyzer.src.data_loader import get_data_loader
 
 # Load data
 @st.cache_resource
@@ -25,33 +23,33 @@ st.title("Food Label Analysis — UI")
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Analyze Label", "Substitutions", "Meal Substitutions", "Meal Simulator", "Weekly Report"])
 
-ROOT = Path(__file__).resolve().parent
+
 
 # Helper: attempt imports from project modules
 def try_imports():
     imports = {}
     try:
-        from src.ocr_engine.label_ocr import NutritionLabelOCR
+        from food_label_analyzer.src.ocr_engine.label_ocr import NutritionLabelOCR
         imports['ocr'] = NutritionLabelOCR
     except Exception:
         imports['ocr'] = None
     try:
-        from src.classification.classifier import FoodClassifier
+        from food_label_analyzer.src.classification.classifier import FoodClassifier
         imports['classifier'] = FoodClassifier
     except Exception:
         imports['classifier'] = None
     try:
-        from src.substitution_engine.recommender import SubstitutionRecommendationEngine
+        from food_label_analyzer.src.substitution_engine.recommender import SubstitutionRecommendationEngine
         imports['recommender'] = SubstitutionRecommendationEngine
     except Exception:
         imports['recommender'] = None
     try:
-        from src.meal_simulation.simulator import MealSimulator
+        from food_label_analyzer.src.meal_simulation.simulator import MealSimulator
         imports['simulator'] = MealSimulator
     except Exception:
         imports['simulator'] = None
     try:
-        from src.compliance_tracking.tracker import DailyConsumptionTracker
+        from food_label_analyzer.src.compliance_tracking.tracker import DailyConsumptionTracker
         imports['tracker'] = DailyConsumptionTracker
     except Exception:
         imports['tracker'] = None
@@ -216,7 +214,7 @@ if page == "Analyze Label":
                     st.subheader("📊 Extracted Nutrition Information")
                     
                     # Convert OCRResult to dictionary for easier handling
-                    from src.ocr_engine.label_ocr import NutritionFactsParser
+                    from food_label_analyzer.src.ocr_engine.label_ocr import NutritionFactsParser
                     parser = NutritionFactsParser()
                     nutrition_text = ocr_result.detected_regions.get('nutrition_facts', ocr_result.raw_text)
                     nutrition_facts = parser.parse_nutrition_facts(nutrition_text)
@@ -338,7 +336,7 @@ if page == "Substitutions":
     col1, col2 = st.columns(2)
     
     with col1:
-        from src.config import UserGoal
+        from food_label_analyzer.src.config import UserGoal
         selected_goal = st.selectbox(
             "Primary Health Goal:",
             options=[g.value for g in UserGoal],
@@ -358,7 +356,7 @@ if page == "Substitutions":
         original_food = food_names[selected_food_name]
         
         # Create user profile for recommendation
-        from src.config import UserProfile, UserGoal, Gender, HypertensionSeverity
+        from food_label_analyzer.src.config import UserProfile, UserGoal, Gender, HypertensionSeverity
         
         hypertension_severity = HypertensionSeverity.STAGE_1 if has_hypertension else HypertensionSeverity.NORMAL
         user = UserProfile(
@@ -373,7 +371,7 @@ if page == "Substitutions":
         )
         
         # Get substitutions using advanced engine
-        from src.substitution_engine.advanced_recommender import AdvancedSubstitutionEngine
+        from food_label_analyzer.src.substitution_engine.advanced_recommender import AdvancedSubstitutionEngine
         engine = AdvancedSubstitutionEngine()
         substitutes = engine.find_substitutes(original_food, user, top_n=5)
         
@@ -457,8 +455,8 @@ if page == "Meal Substitutions":
     st.header("🍽️ Meal-Level Substitutions")
     st.write("Optimize entire meals by substituting individual foods based on your health goals.")
     
-    from src.config import UserGoal, Gender, HypertensionSeverity, UserProfile
-    from src.substitution_engine.meal_substitution import MealContextSimulator, MealType
+    from food_label_analyzer.src.config import UserGoal, Gender, HypertensionSeverity, UserProfile
+    from food_label_analyzer.src.substitution_engine.meal_substitution import MealContextSimulator, MealType
     
     foods = data_loader.get_all_foods()
     food_names = {f.food_name: f for f in foods}
