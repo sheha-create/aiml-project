@@ -311,7 +311,6 @@ pytest tests/ -v
 ## 📚 Documentation
 
 - **[Full Technical Documentation](docs/DOCUMENTATION.md)**
-- **[API Reference](docs/API_REFERENCE.md)** (coming soon)
 - **[Clinical Reasoning Guide](docs/CLINICAL_GUIDE.md)** (coming soon)
 
 ---
