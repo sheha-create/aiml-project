@@ -4,31 +4,21 @@ pandas==2.0.3
 scikit-learn==1.3.0
 
 # OCR and Image Processing (Essential for app functionality)
-pytesseract==0.3.10
-opencv-python==4.8.0.76
+opencv-python-headless==4.8.0.76
 Pillow==10.0.0
 easyocr==1.7.0
 
 # Web Framework (Essential)
 streamlit==1.30.0
-fastapi==0.103.0
-uvicorn==0.23.2
-requests==2.31.0
+
 
 # Data Validation (Essential)
 pydantic==2.3.0
 
-# Database (Optional - kept for scalability)
-sqlalchemy==2.0.21
+
 
 # Utilities
 python-dotenv==1.0.0
 python-dateutil==2.8.2
 
-# Optional: Uncomment if needed
-# scipy==1.11.2                    # Advanced statistics
-# matplotlib==3.8.0                # Data visualization
-# seaborn==0.12.2                  # Statistical visualization
-# langchain==0.0.285               # LLM chains (not used currently)
-# openai==0.28.1                   # OpenAI API (not used currently)
-# torch==2.0.1                     # PyTorch (EasyOCR has bundled models)
+

@@ -5,7 +5,6 @@ Supports multiple label formats including Indian packaged foods
 import cv2
 import numpy as np
 from PIL import Image
-import pytesseract
 import easyocr
 from typing import Dict, Tuple, Optional, List
 import re
@@ -22,8 +21,9 @@ class OCRResult:
 
 class NutritionLabelOCR:
     """OCR engine for nutrition labels"""
+    _shared_reader = None
     
-    def __init__(self, use_easyocr: bool = True, use_tesseract: bool = True):
+    def __init__(self, use_easyocr: bool = True, use_tesseract: bool = False):
         """
         Initialize OCR engines
         
@@ -32,10 +32,12 @@ class NutritionLabelOCR:
             use_tesseract: Use Tesseract (faster)
         """
         self.use_easyocr = use_easyocr
-        self.use_tesseract = use_tesseract
+        self.use_tesseract = False
         
         if self.use_easyocr:
-            self.reader = easyocr.Reader(['en', 'hi'])  # English and Hindi
+            if NutritionLabelOCR._shared_reader is None:
+                NutritionLabelOCR._shared_reader = easyocr.Reader(['en', 'hi'])  
+            self.reader = NutritionLabelOCR._shared_reader  # English and Hindi
         
         self.accuracy_metrics = {
             'ocr_attempts': 0,
@@ -139,12 +141,8 @@ class NutritionLabelOCR:
             except Exception as e:
                 print(f"EasyOCR failed: {e}")
         
-        # Fallback to Tesseract
-        if not raw_text and self.use_tesseract:
-            try:
-                raw_text, confidence = self.extract_text_tesseract(image_path)
-            except Exception as e:
-                print(f"Tesseract failed: {e}")
+        if False:
+            pass
         
         # Detect regions
         detected_regions = self._detect_label_regions(raw_text)

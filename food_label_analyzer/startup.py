@@ -27,10 +27,7 @@ def verify_dependencies():
         'pandas': 'Pandas',
         'sklearn': 'scikit-learn',
         'cv2': 'OpenCV',
-        'pytesseract': 'Tesseract',
         'easyocr': 'EasyOCR',
-        'fastapi': 'FastAPI',
-            'pydantic': 'Pydantic',
             'streamlit': 'Streamlit',
     }
     
